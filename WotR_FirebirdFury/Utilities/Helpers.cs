@@ -28,9 +28,9 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Reflection;
-using WotR_FirebirdFury.Config;
+using FirebirdFury.Config;
 
-namespace WotR_FirebirdFury.Utilities
+namespace FirebirdFury.Utilities
 {
     public static class Helpers
     {

@@ -12,7 +12,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace WotR_FirebirdFury.Config
+namespace FirebirdFury.Config
 {
     public class Blueprints : IUpdatableSettings
     {
@@ -63,7 +63,7 @@ namespace WotR_FirebirdFury.Config
                 }
 #endif
             }
-            if (Id == null) { Main.Error($"ERROR: GUID for {name} not found"); }
+            if (Id == null) { Main.Log($"ERROR: GUID for {name} not found"); }
             UsedGUIDs[name] = Id;
             return new BlueprintGuid(Id);
         }

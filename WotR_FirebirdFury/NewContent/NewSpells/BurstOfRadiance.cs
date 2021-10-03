@@ -15,10 +15,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WotR_FirebirdFury.Extensions;
-using WotR_FirebirdFury.Utilities;
+using FirebirdFury.Extensions;
+using FirebirdFury.Utilities;
 
-namespace WotR_FirebirdFury.NewContent.NewSpells
+namespace FirebirdFury.NewContent.NewSpells
 {
     class BurstOfRadiance
     {

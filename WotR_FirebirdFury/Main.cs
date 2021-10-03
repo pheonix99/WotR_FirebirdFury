@@ -2,11 +2,11 @@
 using JetBrains.Annotations;
 using Kingmaker.Blueprints.JsonSystem;
 using System;
-using WotR_FirebirdFury.Config;
-using WotR_FirebirdFury.Utilities;
+using FirebirdFury.Config;
+using FirebirdFury.Utilities;
 using UnityModManagerNet;
 
-namespace WotR_FirebirdFury
+namespace FirebirdFury
 {
     static class Main
     {
@@ -16,8 +16,8 @@ namespace WotR_FirebirdFury
             var harmony = new Harmony(modEntry.Info.Id);
             ModSettings.ModEntry = modEntry;
             ModSettings.LoadAllSettings();
-            harmony.PatchAll();
-            PostPatchInitializer.Initialize();
+            //harmony.PatchAll();
+            //PostPatchInitializer.Initialize();
             return true;
         }
         static bool OnToggle(UnityModManager.ModEntry modEntry, bool value)

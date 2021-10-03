@@ -7,13 +7,13 @@ using Kingmaker.Designers.Mechanics.Facts;
 using Kingmaker.Designers.Mechanics.Recommendations;
 using Kingmaker.EntitySystem.Stats;
 using Kingmaker.Enums;
-using WotR_FirebirdFury.Extensions;
-using WotR_FirebirdFury.Config;
+using FirebirdFury.Extensions;
+using FirebirdFury.Config;
 //using TabletopTweaks.Extensions;
 //using TabletopTweaks.NewComponents;
-using WotR_FirebirdFury.Utilities;
+using FirebirdFury.Utilities;
 
-namespace WotR_FirebirdFury.NewContent.NewFeats
+namespace FirebirdFury.NewContent.NewFeats
 {
     static class BladedBrush
     {

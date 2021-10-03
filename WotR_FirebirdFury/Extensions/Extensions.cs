@@ -15,11 +15,11 @@ using Kingmaker.Utility;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using WotR_FirebirdFury.Utilities;
+using FirebirdFury.Utilities;
 using UnityEngine;
 using static Kingmaker.Blueprints.Classes.Prerequisites.Prerequisite;
 
-namespace WotR_FirebirdFury.Extensions
+namespace FirebirdFury.Extensions
 {
     static class ExtentionMethods
     {

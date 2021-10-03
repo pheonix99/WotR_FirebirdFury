@@ -8,8 +8,8 @@
     <ProjectGuid>{7430442D-B022-4355-A541-216D60EA08C5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WotR_FirebirdFury</RootNamespace>
-    <AssemblyName>WotR_FirebirdFury</AssemblyName>
+    <RootNamespace>FirebirdFury</RootNamespace>
+    <AssemblyName>FirebirdFury</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -93,10 +93,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Config\AddedContent.cs" />
     <Compile Include="Config\Blueprints.cs" />
+    <Compile Include="Config\Fixes.cs" />
+    <Compile Include="Config\IDisableableGroup.cs" />
     <Compile Include="Config\IUpdatableSettings.cs" />
     <Compile Include="Config\ModSettings.cs" />
+    <Compile Include="Config\NestedSettingGroup.cs" />
+    <Compile Include="Config\SettingGroup.cs" />
     <Compile Include="Extensions\Extensions.cs" />
+    <Compile Include="Fixes\Items\Weapons\WeaponDamageRiders.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="NewContent\NewFeats\BladedBrush.cs" />
     <Compile Include="NewContent\NewSpells\BurstOfRadiance.cs" />
@@ -107,7 +113,16 @@
     <Compile Include="Utilities\Helpers.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Config\AddedContent.json" />
+    <EmbeddedResource Include="Config\Blueprints.json" />
+    <EmbeddedResource Include="Config\Fixes.json" />
+    <None Include="Info.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties info_1json__JsonSchema="" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

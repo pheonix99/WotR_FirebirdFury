@@ -1,0 +1,22 @@
+{
+    "NewSettingsOffByDefault": false,
+    "Items": {
+        "DisableAll": false,
+        "Armor": {
+            "DisableAll": false,
+            "Enabled": {}
+        },
+        "Equipment": {
+            "DisableAll": false,
+            "Enabled": {
+                
+            }
+        },
+        "Weapons": {
+            "DisableAll": false,
+            "Enabled": {
+                "MindPiercer": true
+            }
+        }
+    }
+}

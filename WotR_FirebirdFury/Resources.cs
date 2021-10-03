@@ -1,9 +1,9 @@
 ﻿using JetBrains.Annotations;
 using Kingmaker.Blueprints;
 using System.Collections.Generic;
-using WotR_FirebirdFury.Config;
+using FirebirdFury.Config;
 
-namespace WotR_FirebirdFury
+namespace FirebirdFury
 {
     static class Resources
     {

@@ -3,7 +3,7 @@ using System;
 using System.Linq;
 using System.Reflection;
 
-namespace WotR_FirebirdFury.Utilities
+namespace FirebirdFury.Utilities
 {
     class PostPatchInitializeAttribute : Attribute
     {

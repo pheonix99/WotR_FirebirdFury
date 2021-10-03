@@ -1,4 +1,4 @@
-﻿namespace WotR_FirebirdFury.Config
+﻿namespace FirebirdFury.Config
 {
     public interface IUpdatableSettings
     {

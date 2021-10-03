@@ -1,0 +1,12 @@
+{
+    "AssemblyName": "FirebirdFury.dll",
+    "Author": "Pheonix89",
+    "DisplayName": "Firebirds Fury",
+    "EntryMethod": "FirebirdFury.Main.Load",
+    "GameVersion": "1.0.7",
+    "HomePage": "https://github.com/pheonix99/WotR_FirebirdFury",
+    "Id": "FirebirdFury",
+    "ManagerVersion": "0.23.0",
+    "Requirements": [],
+    "Version": "0.0.1"
+}
