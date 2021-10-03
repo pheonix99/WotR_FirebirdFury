@@ -37,7 +37,7 @@ namespace FirebirdFury.Fixes.Items.Weapons
                     Conditional MindPiercerRiderConditional = (Conditional)MindPiercerRider.Action.Actions[0];//I can afford this because this is a length one list
                     ContextActionDealDamage MindPiercerRiderDamage = (ContextActionDealDamage)MindPiercerRiderConditional.IfTrue.Actions.FirstOrDefault(x => x is ContextActionDealDamage);
                     MindPiercerRiderDamage.DamageType.Physical.Material = Kingmaker.Enums.Damage.PhysicalDamageMaterial.ColdIron;
-                    MindPiercerRiderDamage.DamageType.Physical.Enhancement = 1;
+                    //MindPiercerRiderDamage.DamageType.Physical.Enhancement = 1; This doesn't make it peirce DR/magic
                     Main.LogPatch("Patched", MindPiercerEnchant);
                 }
             }
